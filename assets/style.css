@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&family=Poppins:wght@300;400;500;600;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins";
+}
+
+body {
+    overflow: hidden;
+}
+
+.background{ 
+    background: linear-gradient(rgba(0,0,0,0.5)rgba(0,0,0,0.5));
+    background-image: url(./img/Background.jpg);
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+   
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.cabecalho-link {
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.cabecalho-link a{
+    color: #fff;
+    font-size: 12px;
+}
+
+.cabecalho-link a:hover{
+    color: #2ecc71;
+    transition: 0.3s all;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+    background: transparent;
+    color: #2ecc71;
+    border-radius: 50%;
+    border: 1px solid #2ecc71;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.20rem;
+    cursor: pointer;
+    /* transition: 0.3s all; */
+}
+
+.logo a{
+    color: #fff;
+}
+.logo:hover {
+    color: #fff; /* Mude a cor ao passar o mouse */
+    background-color: #2ecc71; /* Mude a cor de fundo ao passar o mouse */
+    transition: 0.3s all; /* Adicione a transição aqui para a mudança de cor suave */
+}
+
+button {
+    color: #2ecc71;
+    background: transparent;
+    border: 1px solid #2ecc71;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+
+}
+button a{
+    color: #fff !important;
+}
+
+button:hover {
+    color: #fff ;
+    background-color:#2ecc71;/* Mude a cor de fundo ao passar o mouse */
+    transition: 0.5s all; /* Adicione transição apenas para cor de fundo e cor de texto */
+}
+
+/* MEXENDO NO CONTEUDO DO BODY > CONTAINER */
+
+.container-text {
+    display: flex;
+    justify-content: flex-start; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+    height: 100vh; /* Altura total da viewport */
+    padding-left: 130px;
+}
+.txt{
+    color: #fff;
+    
+}
+.txt h1{
+    color: #fff;
+    margin-top: 10px;
+    font-size: 55px;
+}
+.txt h3{
+    font-size: 50px;
+
+}
+.txt span{
+    color: #2ecc71;
+}
+
+.txt p{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+.redes {
+   
+    
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 30px;
+    
+}
+.redes a i {
+    color: #2ecc71 ;
+    /* Ajuste o tamanho conforme desejado */
+    margin-right: 25px; /* Ajuste o espaçamento conforme desejado */
+}
+img {
+    padding-left: 280px;
+    justify-content: center;
+    align-items: center;
+    height: 440px;
+    margin-bottom: 150px;
+    border-radius: 50% ;
+}
